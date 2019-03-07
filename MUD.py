@@ -22,9 +22,9 @@ def start():
         way = ''
     current_location = 'square'
     locations = {'square', 'forge', 'mill', 'inn', 'road'}
-    while way != 'exit':
+    while way != 'quit':
         print('Choose: {}/{}/{}/{}/{}'.format(*locations))
-        print('\nType exit to finish game')
+        print('\nType "quit" to finish game')
         way = input()
         if current_location != way:
             if way == 'road':
