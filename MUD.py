@@ -101,6 +101,7 @@ def forge():
 
 
 def search(current_location):
+    print('\n*____________________________*')
     print('You are searching something here...')
     if current_location == 'square':
         print('You found a bunch of garbage here and nothing more.')
@@ -114,7 +115,7 @@ def search(current_location):
         print('Here is a pile of scrap metal, but you don’t see anything useful for yourself.')
     else:
         print('Where are you man?? And how did you come there?')
-    print('\n____________________________')
+    print('\n*____________________________*')
 
 
 def cls():
